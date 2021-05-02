@@ -103,7 +103,7 @@ exit_list =['bye', 'exit', 'welaba', 'later', 'end']
 
 @app.route("/")
 def home():
-	return render_template("home.html")
+	return render_template("bot.html")
 
 @app.route("/get")
 def get_bot_response():
