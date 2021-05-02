@@ -23,8 +23,8 @@ corpus= article.text
 #TOKENIZATION
 text = corpus
 sentence_list = nltk.sent_tokenize(text)# get  list of sentences 
-print(sentence_list)
-print(len(sentence_list))
+#print(sentence_list)
+#print(len(sentence_list))
 
 def index_sort(list_var):
     n = len(list_var)
@@ -89,17 +89,17 @@ def bot_response(user_input):
 exit_list =['bye', 'exit', 'welaba', 'later', 'end']
 
 
-while(True):
+# while(True):
   
-    user_input = input()
-    if user_input.lower() in exit_list:
-        print(" ChatBot: See you later ")
-        break
-    else:
-        if greet_response(user_input) != None:
-            print("ChatBot:"+ greet_response(user_input))
-        else:
-            print("ChatBot :"+ bot_response(user_input))
+#     user_input = input()
+#     if user_input.lower() in exit_list:
+#         print(" ChatBot: See you later ")
+#         break
+#     else:
+#         if greet_response(user_input) != None:
+#             print("ChatBot:"+ greet_response(user_input))
+#         else:
+#             print("ChatBot :"+ bot_response(user_input))
 
 @app.route("/")
 def home():
@@ -107,6 +107,7 @@ def home():
 
 @app.route("/get")
 def get_bot_response():
+    exit_list =['bye', 'exit', 'welaba', 'later', 'end']
 
     user_input = request.args.get('msg')
     if user_input.lower() in exit_list:
