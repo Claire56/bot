@@ -1,0 +1,37 @@
+"Hello",
+    "Hi there!",
+    "Hi",
+    "Hi!",
+    "How are you doing?",
+    "I'm doing great.",
+    "That is good to hear",
+    "Thank you.",
+    "You're welcome.",
+    'Are you open for school?', 'Yes we started classes in January',
+    'What is the name of your instructor?', 'Professor Mumba',
+    "Tell me about the class",
+    "It is an advanced cloud computing class"
+    'What is your name?', 'I am a ChatBot',
+    'Who created you?', 'NAU students : Claire Edra and Zely'
+    "Tell me about yourself",
+    "I am only able to answer a few questions about the cloud computiing class",
+    "Contact",
+    "Email : sunandasomwase@gmail.com, Mobile number : +91 9021393816 Location : Pune, Maharashtra",
+    "Education",
+    "Bachelor of Engineering (B.E), '\n'
+    Computer Science & Engineering\n 
+    Pune Vidyarthi Grihas College Of Engineering And Technology Pune '\n'
+    2018 - 2022 '\n'
+    CGPA: 8.84/10 '\n'
+    Senior Secondary (XII), Science
+    Sir Parashurambhau College Pune Maharashtra
+    (MAHARASHTRA STATE BOARD board)
+    Year of completion: 2018
+    Percentage: 88.40%
+    Secondary (X)
+    Sant Meera School Aurangabad
+    (MAHARASHTRA STATE BOARF board)
+    Year of completion: 2016
+    Percentage: 96.20%",
+    "Projects",
+    ""
